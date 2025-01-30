@@ -1,0 +1,66 @@
+.updatestoreform {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .updatestorelable {
+    display: block;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .updatestoreinput {
+    border: 2px solid #0311448a;
+    border-radius: 4px;
+    font-size: 19px;
+    width: 500%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    /* box-sizing: border-box; */
+    border-radius: 8px; /* Ensures padding and border are included in the element's total width and height */
+  }
+  
+  .updatestoreinputselect {
+    border: 2px solid #0311448a;
+    border-radius: 4px;
+    font-size: 19px;
+    width: 500%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    /* box-sizing: border-box; */
+    border-radius: 8px;
+    height: 50px; /* Adjust as needed */
+  }
+
+  .updatestoreinputtextarea {
+    border: 2px solid #0311448a;
+    border-radius: 4px;
+    font-size: 19px;
+    width: 500%;
+    margin: 10px 0;
+    /* box-sizing: border-box; */
+    border-radius: 8px; /* Ensures padding and border are included in the element's total width and height */
+    height: 150px;
+  }
+  
+  .updatestorebutton {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10%;
+    /* margin-left: 165%; */
+    border: none;
+    border-radius: 5px;
+    background-color: #031144cd;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .updatestorebutton:hover {
+    background-color: #031144;
+  }
+ 

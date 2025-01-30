@@ -1,0 +1,38 @@
+.foodandbeverages .cardContainer {
+  background-color: none;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  column-gap: 30px;
+  display: grid; /*display as a mesh */
+  grid-template-columns: auto auto auto auto auto; /*no of columns */
+}
+
+.foodandbeverages .card {
+  background-color: white;
+  width: fit-content;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.foodandbeverages .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(83, 77, 100, 0.2),
+    0 6px 20px 0 rgba(9, 1, 32, 0.484);
+  cursor: pointer;
+}
+
+.foodandbeverages .imageContainer {
+  background-color: none;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foodandbeverages .imageContainer img {
+  width: 300px;
+  border-radius: 10px;
+  height: 300px;
+}

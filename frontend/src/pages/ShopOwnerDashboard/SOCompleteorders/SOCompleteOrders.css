@@ -1,0 +1,37 @@
+.SOCompleteOrders .head-section {
+  margin-top: 20px;
+  margin-left: 730px;
+}
+
+.SOCompleteOrders .srch-export {
+  display: flex;
+  gap: 20px;
+}
+
+.SOCompleteOrders .srch-export input {
+  height: 40px;
+  width: 300px;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.SOCompleteOrders .srch-export button {
+  background-color: #031144;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SOCompleteOrders .body-sec {
+  margin-top: 30px;
+}
+
+.SOCompleteOrders .tbl-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

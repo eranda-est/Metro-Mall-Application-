@@ -1,0 +1,52 @@
+.SOItems {
+  max-height: 79vh;
+  overflow-y: auto;
+}
+
+.SOItems .head-section {
+  display: flex;
+  gap: 600px;
+  margin-top: 20px;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.SOItems .srch-export {
+  display: flex;
+  gap: 20px;
+}
+
+.SOItems .add-btn a {
+  background-color: #ffd700;
+  color: #031144;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.SOItems .srch-export input {
+  height: 40px;
+  width: 300px;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.SOItems .srch-export button {
+  background-color: #031144;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
+
+.SOItems .body-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}

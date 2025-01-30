@@ -1,0 +1,49 @@
+.SOPreorders .head-section {
+  margin-top: 20px;
+  margin-left: 730px;
+}
+
+.SOPreorders .srch-export {
+  display: flex;
+  gap: 20px;
+}
+
+.SOPreorders .srch-export input {
+  height: 40px;
+  width: 300px;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.SOPreorders .srch-export button {
+  background-color: #031144;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SOPreorders .body-sec {
+  margin-top: 30px;
+}
+
+.SOPreorders .tbl-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.SOPreorders .tbl-btn .complete-btn {
+  background-color: #0b711c;
+  color: white;
+  font-weight: bold;
+}
+
+.SOPreorders .tbl-btn .delete-btn {
+  background-color: #b00f0f;
+  color: white;
+  font-weight: bold;
+}

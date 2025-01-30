@@ -1,0 +1,90 @@
+.addstoreform {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.addstorelable {
+  display: block;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.storeinput {
+  border: 2px solid #0311448a;
+  border-radius: 4px;
+  font-size: 19px;
+  width: 520%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  /* box-sizing: border-box; */
+  border-radius: 8px; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.storeinputselect {
+  border: 2px solid #0311448a;
+  border-radius: 4px;
+  font-size: 19px;
+  width: 520%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  height: 50px; /* Adjust as needed */
+}
+
+.storeinputtextarea {
+  border: 2px solid #0311448a;
+  border-radius: 4px;
+  font-size: 19px;
+  width: 520%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  /* box-sizing: border-box; */
+  border-radius: 8px;
+  width: 520%;
+  height: 150px; /* Adjust as needed */
+}
+
+.addstorebutton {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: 10%;
+  /* margin-left: 165%; */
+  border: none;
+  border-radius: 5px;
+  background-color: #031144cd;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.addstorebutton:hover {
+  background-color: #031144;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.2em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.addstorecard {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

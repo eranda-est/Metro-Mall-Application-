@@ -1,0 +1,14 @@
+.homepageslideshow .homeimage-container img{
+    height: 50%;
+    width: 800%;
+}
+
+.homepageslideshow .vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+

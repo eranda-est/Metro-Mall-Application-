@@ -1,0 +1,68 @@
+/* Sidebar style */
+
+.SOSideMenu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-color: #031144;
+  width: 300px;
+}
+
+.SOSideMenu .sidebarList {
+  list-style-type: none;
+  min-height: 80vh;
+  color: #ffffff;
+  font-weight: 500;
+  width: 100%;
+  font-family: calibri;
+  font-size: 24px;
+}
+
+.SOSideMenu .sm-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.SOSideMenu sm-line#active {
+  background-color: #031144;
+}
+
+.SOSideMenu #icon {
+  margin-right: 5px;
+  color: #f0f0f0;
+}
+
+.SOSideMenu .sidebarList .sm-line {
+  height: 80px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.SOSideMenu .sidebarList .sm-line:hover {
+  cursor: pointer;
+  background-color: #ffffff88;
+  width: 100%;
+}
+
+.SOSideMenu .sidebarList #active {
+  background-color: #ffffff88;
+  width: 100%;
+}
+
+.SOSideMenu .sm-line #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.SOSideMenu .sm-line #title {
+  flex: 70%;
+}

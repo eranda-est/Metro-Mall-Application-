@@ -1,0 +1,47 @@
+.preorder-item .po-card {
+  display: flex;
+  justify-content: space-between;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 900px;
+  height: 290px;
+}
+
+.preorder-item .po-image {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.preorder-item .po-texts {
+  margin-top: 80px;
+}
+
+.preorder-item .po-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.preorder-item .po-texts .item-d {
+  font-size: 17px;
+}
+
+.preorder-item .third-section {
+  margin-top: 80px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.preorder-item .third-section button {
+  background-color: #b00f0f;
+  height: 40px;
+  width: 90px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

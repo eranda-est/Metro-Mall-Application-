@@ -1,0 +1,27 @@
+.items-page {
+  max-height: 79vh;
+  overflow-y: auto;
+}
+
+.items-page h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #052d55;
+}
+
+.items-page .items-search input {
+  height: 40px;
+  width: 350px;
+  margin-left: 100px;
+  border: 0.2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.items-page .all-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
